@@ -10,7 +10,7 @@ def add(a, b):
 
 @app.route("/")
 def home():
-    return "CI/CD Day 4 — deployed live via a pipeline! 🚀"
+    return "CI/CD Day 4 — auto-deployed on every push! 🚀"
 
 
 @app.route("/add/<int:a>/<int:b>")
